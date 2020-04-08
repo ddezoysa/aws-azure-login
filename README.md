@@ -199,7 +199,7 @@ Obviously, this tool only supports Azure AD as an identity provider. However, th
 
 ## Deploy the customizations
 
-    1. Replace `/usr/local/lib/node_modules/aws-azure-login/lib/login.js` file with `lib/login.js` from the GitHub repository.
-    2. Add `aws_account_aliases` variable to ~/.aws/config profile with account aliases and account numbers with comma separated.
+1. Replace `/usr/local/lib/node_modules/aws-azure-login/lib/login.js` file with `lib/login.js` from the GitHub repository.
+2. Add `aws_account_aliases` variable to ~/.aws/config profile with account aliases and account numbers with comma separated.
 
-            aws_account_aliases=Account-1 (XXXXXXXXXXX),Account-1 (XXXXXXXXXXX)
+    aws_account_aliases=Account-1 (XXXXXXXXXXX),Account-1 (XXXXXXXXXXX)
